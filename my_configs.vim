@@ -11,3 +11,7 @@ map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
+
+call plug#begin('~/.vim_runtime/my_plugins')
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+call plug#end()
